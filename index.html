@@ -4,26 +4,44 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>responsive navbar</title>
+  <title>Document</title>
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  <div class="box">
-    <nav>
-      <h2 class="logo">Technology <span>solutions</span></h2>
-      <ul>
+    <header class="main-header">
+        <div class="left-side">
+          <div class="logo">
+            Vasantha Bhavan
+          </div>
+        </div>
+        <div class="right-side">
+            <ul class="right-links">
+              <li><a href="#">Home</a></li>
+              <li  class="active"><a href="#">Product</a></li>
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">Login</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+
+        <button class="right-bar">
+          <span class="bar"></span>
+        </button>
+    </header>
+    <div class="mobile-nav">
+      <ul class="right-links">
         <li><a href="#">Home</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Product</a></li>
-        <li><a href="#">Services</a></li>
-        <li><a href="#">Contact Us</a></li>
+        <li  class="active"><a href="#">Product</a></li>
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">Login</a></li>
+        <li><a href="#">Contact</a></li>
       </ul>
-      <button>Sign In</button>
-    </nav>
-    <div class="banner-text">
-      <h1>Good <span>luck</span> Software Solution</h1>
-      <p>Learn More Be Smart</p>
-    </div>  
-  </div>
+    </div>
+    <div class="banner">
+      <h1>Vasantha Bhavan</h1>
+    </div>
+    <div class="section"></div>
+
+  <script src="js/script.js"></script>
 </body>
 </html>
